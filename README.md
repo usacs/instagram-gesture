@@ -1,4 +1,4 @@
-# ☝🏽Gesture Based Instagram Liker with Teachable Machine
+# ☝🏽Gesture-Based Instagram Liker with Teachable Machine
 
 Like Instagram photos using Teachable Machine and Google Chrome extension content scripts.
 
@@ -12,6 +12,7 @@ Like Instagram photos using Teachable Machine and Google Chrome extension conten
 ## Changing The Model
 
 - Go to [Teachable Machine](https://teachablemachine.withgoogle.com/train/image) and train an image model
+- *Make sure that one of the models classes is "Thumbs Up"* unless you plan on changing the the value in `content-scripts.js`.
 - Click "Export model" and "Upload model"
 - After your model is finished loading, copy the model url
 - Go to `content-scripts.js` and change `URL` to your new model url
