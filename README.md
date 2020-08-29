@@ -1,5 +1,7 @@
 # ☝🏽Gesture-Based Instagram Liker with Teachable Machine
 
+![Extension Demo](demo.gif)
+
 Like Instagram photos using Teachable Machine and Google Chrome extension content scripts.
 
 ## Basic Usage
