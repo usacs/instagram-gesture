@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Instagram Extension",
+  "version": "1",
+  "content_scripts": [
+    {
+      "matches": ["https://www.instagram.com/"],
+      "js": [
+        "tf.min.js",
+        "teachable-machine-image.min.js",
+        "content-scripts.js"
+      ]
+    }
+  ]
+}
