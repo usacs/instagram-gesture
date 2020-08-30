@@ -8,7 +8,7 @@ Like Instagram photos using Teachable Machine and Google Chrome extension conten
 
 - Navigate to `chrome://extensions`
 - Enable "Developer mode"
-- Clikc "Load unpacked" and select this folder
+- Click "Load unpacked" and select this folder
 - Go to Instagram!
 
 ## Changing The Model
